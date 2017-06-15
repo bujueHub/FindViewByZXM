@@ -4,14 +4,16 @@
 
 增加功能：
 	
-	1.兼容自己的工程，生成定制的findViewbyid代码
+	1.兼容自己工程，生成findViews代码
 	2.增加修改变量名称，增加注释
-	3.修改BUG:res目录存在业务分层(res/XX/layout/XXX.xml)，导致找不到layout文件
 	
-### 快捷键
-Command + Shift + Y 
+### 使用姿势
+1. 点击Preference,选中Plugins
+2. 选择按钮Install plugin from disk...
+3. 将工程中的FindViewByZXM.jar选中，重启AS
+4. 选中R.layout.XX,使用快捷键Command + Shift + Y 或者Command + N弹出Generate对话框，选择FindViewByZXM，弹出后面显示的对框
+5. 点击OK就可以生成了
 
-或者Command + N弹出Generate对话框，选择FindViewByZXM
 
 ### 界面展示
 
