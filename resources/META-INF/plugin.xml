@@ -1,0 +1,39 @@
+<idea-plugin>
+  <id>com.luanma.idea.plugin</id>
+  <name>FindViewByZXM</name>
+  <version>1.0.0</version>
+  <vendor>郑晓明</vendor>
+
+
+  <description><![CDATA[
+     一个自动实现FindViewById的工具
+    ]]></description>
+
+  <change-notes><![CDATA[
+      基于FindViewByMe项目，实现FindViewById的工具，兼容自己的项目<br>
+      增加功能：<br>
+        1.兼容自己工程，生成findViews代码<br>
+        2.增加修改变量名称，增加注释<br>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="145.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <action id="AutoFindView" class="com.luanma.idea.plugin.action.FindViewByMeAction" text="FindViewByZXM">
+      <add-to-group group-id="GenerateGroup"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift Y"/>
+    </action>
+  </actions>
+</idea-plugin>
