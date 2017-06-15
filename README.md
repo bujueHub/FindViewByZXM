@@ -14,7 +14,10 @@
 4. 选中R.layout.XX,使用快捷键Command + Shift + Y 或者Command + N弹出Generate对话框，选择FindViewByZXM，弹出后面显示的对框
 5. 点击OK就可以生成了
 
+> 去除勾选人品项目这个按钮，这个是本人私有项目
 
 ### 界面展示
 
 ![Markdown](http://i2.muimg.com/588664/4bfe51f31f946982.png)
+
+![Markdown](http://i4.piimg.com/588664/127423511ba1162f.png)
